@@ -22,7 +22,7 @@ public:
         }
         normalize();
     }
-
+    0
     Fraction(int num) : numerator(num), denominator(1) {}
 
     int getNumerator() const { return numerator; }
